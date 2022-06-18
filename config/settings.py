@@ -55,7 +55,12 @@ INSTALLED_APPS = [
     'crispy_forms',
     'django_cleanup.apps.CleanupConfig',
     'admin_honeypot',
+    
+    # my apps
+    'Users.apps.UsersConfig',
 ]
+
+AUTH_USER_MODEL = 'Users.User' #changes the built in users model to ours
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

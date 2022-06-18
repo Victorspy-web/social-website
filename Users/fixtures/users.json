@@ -1,0 +1,18 @@
+[
+{
+    "model": "Users.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$5vm7jI8H87RKFN209RSvbW$OoyGIZ152Y/gp44rsul30TLWapeQDCUk4b7hBe8KfR4=",
+        "is_superuser": false,
+        "email": "victor@gmail.com",
+        "active": true,
+        "staff": true,
+        "admin": true,
+        "last_login": "2022-06-18T11:09:25.511Z",
+        "date_created": "2022-06-18T11:09:01.715Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
