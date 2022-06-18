@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pillow = "*"
+whitenoise = "*"
+python-decouple = "*"
+django-cleanup = "*"
+django-ckeditor = "*"
+cloudinary = "*"
+django-crispy-forms = "*"
+django-allauth = "*"
+django-phonenumber-field = "*"
+django-admin-honeypot = "*"
+pyjwt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
